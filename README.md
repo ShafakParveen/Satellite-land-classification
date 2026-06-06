@@ -1,0 +1,39 @@
+# CNN-Based Satellite Image Classification for LULC Analysis
+
+## About
+This project uses a Convolutional Neural Network (CNN) to classify EuroSAT satellite images into basic LULC classes: Forest, AnnualCrop, and Residential.
+
+## Dataset
+Dataset: EuroSAT
+
+Classes used:
+- Forest
+- AnnualCrop
+- Residential
+
+## Workflow
+- Loaded satellite images from class-wise folders
+- Resized images to 64 x 64 pixels
+- Normalized pixel values from 0-255 to 0-1
+- Split data into training and testing sets
+- Built and trained a CNN model
+- Evaluated using accuracy, loss, confusion matrix, classification report, and sample predictions
+
+## Model
+The CNN model uses Conv2D, MaxPooling2D, Flatten, Dense, Dropout, and Softmax layers.
+
+## Results
+The model achieved around 98-99% validation accuracy during training.
+
+Output files are stored in the outputs folder:
+- accuracy_graph.png
+- loss_graph.png
+- confusion_matrix.png
+- sample_predictions.png
+- classification_report.txt
+
+## Tools Used
+Python, TensorFlow/Keras, NumPy, Matplotlib, Scikit-learn, Pillow
+
+## Future Scope
+This project can be improved by adding more classes, using Sentinel-2/Landsat data, and performing area calculation or change detection.
