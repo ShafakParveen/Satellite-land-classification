@@ -10,7 +10,8 @@ import tensorflow as tf
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropout
 
-DATASET_PATH = r"C:\Users\shana\Documents\LULC - CNN\DATASET\EuroSAT_data"
+
+DATASET_PATH = "data/EuroSAT_data"
 CLASSES = ["Forest", "AnnualCrop", "Residential"]
 IMAGE_SIZE = 64
 EPOCHS = 9
