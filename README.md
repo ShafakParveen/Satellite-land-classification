@@ -18,7 +18,8 @@ Classes used:
 - Split data into training and testing sets
 - Built and trained a CNN model
 - Evaluated using accuracy, loss, confusion matrix, classification report, and sample predictions
-
+- Classes used: 3 out of 10 EuroSAT classes.
+- Train-test split: 70:30.
 ## How to Run
 
 1. Clone the repository
