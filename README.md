@@ -19,6 +19,18 @@ Classes used:
 - Built and trained a CNN model
 - Evaluated using accuracy, loss, confusion matrix, classification report, and sample predictions
 
+## How to Run
+
+1. Clone the repository
+2. Install requirements:
+   pip install -r requirements.txt
+
+3. Download EuroSAT dataset and place it inside:
+   data/EuroSAT_data/
+
+4. Run:
+   python main.py
+
 ## Model
 The CNN model uses Conv2D, MaxPooling2D, Flatten, Dense, Dropout, and Softmax layers.
 
