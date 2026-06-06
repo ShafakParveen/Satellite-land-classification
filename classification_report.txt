@@ -1,0 +1,9 @@
+              precision    recall  f1-score   support
+
+      Forest       0.98      0.99      0.99       900
+  AnnualCrop       0.98      0.98      0.98       900
+ Residential       1.00      0.99      1.00       900
+
+    accuracy                           0.99      2700
+   macro avg       0.99      0.99      0.99      2700
+weighted avg       0.99      0.99      0.99      2700

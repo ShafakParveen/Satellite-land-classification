@@ -1,0 +1,5 @@
+Tensorflow - keras
+numpy
+matplotlib
+Pillow
+SKlearn 
