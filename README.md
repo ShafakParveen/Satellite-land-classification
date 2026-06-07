@@ -51,7 +51,7 @@ Satellite-land-classification/
 ├── main.py
 ├── config.py
 ├── data_loader.py
-|- model.py
+├──model.py
 ├── train.py
 ├── evaluate.py
 ├── requirements.txt
